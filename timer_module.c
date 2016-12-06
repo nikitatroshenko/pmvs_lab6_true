@@ -6,7 +6,7 @@
 #include <linux/timer.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Nikita Atroshenko");
+MODULE_AUTHOR("Nikita Atroshenko <nikitatroshenko@github.com>");
 
 static int timeout = 2;
 static int timecount;
