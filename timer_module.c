@@ -68,7 +68,7 @@ static int __init timer_module_init(void)
 		return -ENOMEM;
 
 	retval = sysfs_create_group(timer_kobj, &attr_group);
-	
+
 	if (retval)
 		kobject_put(timer_kobj);
 	else
